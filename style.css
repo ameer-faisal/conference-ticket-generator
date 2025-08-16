@@ -299,3 +299,75 @@ span {
     color: #fff;
   
 }
+#date , #locaion {
+    font-weight: 400;
+    color: #fff;
+}
+@media (max-width: 768px) {
+    .remove-image,
+    .change-image {
+        font-size: 10px;
+        width: 85px;
+        padding: 0;
+    }
+    .ticket {
+        width: 90%;
+        height: auto;
+
+    }
+  
+    .ticket-left img {
+        width: 150px;
+        margin-left: 0;
+    }
+
+    .date-local {
+        width: 100%;
+        margin: 0;
+        text-align: left;
+        font-size: 14px;
+    
+    }
+    .pic-name-ticket {
+        align-items: center;
+    }
+    .pic-name-ticket img {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 10px;
+    }
+    .pic-name-ticket h1 {
+        font-size: 20px;
+    }
+    .pic-name-ticket p {
+        font-size: 14px;
+    }
+    .name-ticket {
+        font-size: 20px;
+    }
+    .ticket-id {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    #ticket-id {
+        font-size: 16px;
+    }
+    .ticket-right {
+        width: 25%;
+        border-left: none;
+        padding: 10px;
+    }
+    .ticket-left {
+        width: 75%;
+        padding: 10px;
+    }
+    .logo-ticket {
+        width: 80px;
+     
+    }
+    .ticket-info {
+        font-size: 14px;
+margin-left: 35px;
+margin-bottom: 20px;
+    }
+}
